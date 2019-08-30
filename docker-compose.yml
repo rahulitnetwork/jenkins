@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:  
+    build: .
+    container_name: web1
+    volumes:
+      - ./jenkins:/var/www/html/
+    ports:
+      - "8080:80" 
+
+
+
