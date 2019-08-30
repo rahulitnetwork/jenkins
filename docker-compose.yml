@@ -6,8 +6,7 @@ services:
     container_name: web1
     volumes:
       - ./jenkins:/var/www/html/
-    ports:
-      - "80:80" 
+    
 
 
 
